@@ -1,0 +1,11 @@
+{
+  "name": "sass_course",
+  "version": "0.0.1",
+  "description": "Curso de Sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./utils/scss/styles.scss ./utils/css/styles.css"
+  },
+  "author": "Martín Díaz",
+  "license": "ISC"
+}
