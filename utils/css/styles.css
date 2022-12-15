@@ -1,5 +1,16 @@
-.title {
-  color: rgb(49, 209, 49);
+.mdf-title-primary {
+  font-size: 1.75rem;
+  color: rgb(109, 11, 96);
+}
+
+.mdf-title-secondary {
+  font-size: 1.75rem;
+  color: rgb(21, 139, 74);
+}
+
+.mdf-title-dark {
+  font-size: 1.75rem;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -23,7 +23,8 @@ Con esto nos habrá creado un **package.json**
 
 ## Ejecutando proyecto
 
-Con el siguiente comando convertimos el archivo sass a css
+Con el siguiente comando compilamos el archivo sass a css, y también
+hacemos que esté pendiente de los cambios para que en automático lo compile a css
 ```
 npm run sass
 ```

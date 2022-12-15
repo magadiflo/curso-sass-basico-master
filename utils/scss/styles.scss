@@ -1,3 +1,21 @@
-.title {
-    color: rgb(49, 209, 49);
+$primary: rgb(109, 11, 96);
+$secondary: rgb(21, 139, 74);
+$dark: #000;
+$dark_opacity: rgba($dark, 0.4);
+$font-size: 1.75rem;
+$brand: 'mdf';
+
+.#{$brand}-title-primary {
+    font-size: $font-size;
+    color: $primary;
+}
+
+.#{$brand}-title-secondary {
+    font-size: $font-size;
+    color: $secondary;
+}
+
+.#{$brand}-title-dark {
+    font-size: $font-size;
+    color: $dark_opacity;
 }
