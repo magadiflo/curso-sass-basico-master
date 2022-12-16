@@ -1,0 +1,40 @@
+//* Nesting (anidamiento)
+//* Recomienda máximo deberíamos anidar hasta el 3° NIVEL o sea 3° CAPA
+//* Aunque sería perfecto si solo fuesen hasta el 2° NIVEL o CAPA
+
+//* 1° CAPA
+.#{$brand}-card {
+
+    width: 200px;
+    padding: 0;
+
+    //* anidamiento de propiedad
+    border: {
+        radius: 5px;
+        width: 1px;
+        style: solid;
+        color: $secondary;
+    }
+
+    //* 2° CAPA, anidando un elemento
+    img {
+        width: 100%;
+        height: 150px;
+        display: block;
+    }
+
+    //* 2° CAPA, anidando un elemento
+    h1 {
+        height: 50px;
+        line-height: 50px;
+        margin: 0;
+    }
+
+    //* 2° CAPA, Anidando una clase
+    &__body {
+        height: 50px;
+        text-align: center;
+        background-color: $primary;
+        line-height: 50px;
+    }
+}

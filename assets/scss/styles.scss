@@ -1,84 +1,11 @@
-$primary: rgb(214, 26, 189);
-$secondary: rgb(19, 190, 85);
-$dark: #000;
-$dark_opacity: rgba($dark, 0.4);
-$font-size: 1.75rem;
-$brand: 'mdf';
+//* Vemos que no le añade el _
+//* Es importante que los archivos secundarios
+//* tengan el _, mientras que los principales
+//* como en el caso del styles.scss esos no 
+//* llevan el _
 
-.#{$brand}-title-primary {
-    font-size: $font-size;
-    color: $primary;
-}
+//* Abstracts
+@import './abstracts/variables';
 
-.#{$brand}-title-secondary {
-    font-size: $font-size;
-    color: $secondary;
-}
-
-.#{$brand}-title-dark {
-    color: $dark_opacity;
-
-    //* Nesting dentro de esta propiedad
-    //*    
-    //* Esto es como si escribiéramos:
-    //*   font-size
-    //*   font-weight
-    //*   font-family
-    //* Como todos repiten el "font", entonces de esta manera
-    //* solo escribiríamos el atributo seguido del guión
-    //*
-
-    //* anidamiento de propiedad
-    font: {
-        size: $font-size;
-        weight: 20px;
-        family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    }
-
-    //* anidamiento de propiedad
-    padding: {
-        top: 2px;
-        left: 2px;
-    }
-}
-
-//* Nesting (anidamiento)
-//* Recomienda máximo deberíamos anidar hasta el 3° NIVEL o sea 3° CAPA
-//* Aunque sería perfecto si solo fuesen hasta el 2° NIVEL o CAPA
-
-//* 1° CAPA
-.#{$brand}-card {
-
-    width: 200px;
-    padding: 0;
-
-    //* anidamiento de propiedad
-    border: {
-        radius: 5px;
-        width: 1px;
-        style: solid;
-        color: $secondary;
-    }
-
-    //* 2° CAPA, anidando un elemento
-    img {
-        width: 100%;
-        height: 150px;
-        display: block;
-    }
-
-    //* 2° CAPA, anidando un elemento
-    h1 {
-        height: 50px;
-        line-height: 50px;
-        margin: 0;
-    }
-
-    //* 2° CAPA, Anidando una clase
-    &__body {
-        height: 50px;
-        text-align: center;
-        background-color: $primary;
-        line-height: 50px;
-    }
-}
+//* Components
+@import './components/titles', './components/cards';

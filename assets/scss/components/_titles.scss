@@ -1,0 +1,36 @@
+.#{$brand}-title-primary {
+    font-size: $font-size;
+    color: $primary;
+}
+
+.#{$brand}-title-secondary {
+    font-size: $font-size;
+    color: $secondary;
+}
+
+.#{$brand}-title-dark {
+    color: $dark_opacity;
+
+    //* Nesting dentro de esta propiedad
+    //*    
+    //* Esto es como si escribiéramos:
+    //*   font-size
+    //*   font-weight
+    //*   font-family
+    //* Como todos repiten el "font", entonces de esta manera
+    //* solo escribiríamos el atributo seguido del guión
+    //*
+
+    //* anidamiento de propiedad
+    font: {
+        size: $font-size;
+        weight: 20px;
+        family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+
+    //* anidamiento de propiedad
+    padding: {
+        top: 2px;
+        left: 2px;
+    }
+}
