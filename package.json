@@ -4,7 +4,7 @@
   "description": "Curso de Sass",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./utils/scss/styles.scss ./utils/css/styles.css"
+    "sass": "sass --watch ./assets/scss/styles.scss ./assets/css/styles.css"
   },
   "author": "Martín Díaz",
   "license": "ISC"

@@ -28,3 +28,10 @@ hacemos que esté pendiente de los cambios para que en automático lo compile a 
 ```
 npm run sass
 ```
+
+## Recomendaciones
+- Debemos crear hojas de estilos de SASS individuales, para que estos
+  solo apliquen a ciertos componentes. Para eso en el directorio 
+  /scss podemos crear archivos por ejmplo: /components/tarjeta.scss, 
+  luego eso deberían ser importado, de esa manera tendremos separado los
+  estilos para cada componente.
