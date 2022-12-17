@@ -1,0 +1,37 @@
+%btn {
+    height: 40px;
+    min-width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 16px;
+    margin: 5px 0;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+//* El @extend, permite extender todos los atributos definidos
+//* dentro del %btn, de esa manera reutilizamos estilos css
+.#{$brand}-btn- {
+
+    &primary,
+    &success,
+    &danger {
+        @extend %btn;
+    }
+
+    &primary {
+        background-color: $primary;
+    }
+
+    &success {
+        background-color: rgb(40, 192, 40);
+    }
+
+    &danger {
+        background-color: rgb(231, 47, 56);
+    }
+}
