@@ -1,4 +1,6 @@
+//* Solid Buttons
 %btn {
+    //* Clase del tipo Placeholder
     height: 40px;
     min-width: 100px;
     border: none;
@@ -33,5 +35,63 @@
 
     &danger {
         background-color: rgb(231, 47, 56);
+    }
+}
+
+//* Outline buttons
+
+//* Selector PADRE
+.btn-outline {
+
+    background: none;
+    height: 40px;
+    min-width: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    margin: 5px 0;
+    transition: 0.5s all ease-in-out;
+
+    //* Cuando se convierte a css quedaría: btn-outline-primary
+    &-primary {
+
+        border: 1px solid $primary;
+        color: $primary;
+
+        //* btn-outline-primary:hover
+        &:hover {
+            background: $primary;
+            color: #FFF;
+            cursor: pointer;
+        }
+    }
+
+    //* btn-outline-success
+    &-success {
+
+        border: 1px solid rgb(40, 192, 40);
+        color: rgb(40, 192, 40);
+
+        //* btn-outline-success:hover
+        &:hover {
+            background-color: rgb(40, 192, 40);
+            color: #FFF;
+            cursor: pointer;
+            border: 1px solid rgb(40, 192, 40);
+        }
+    }
+
+    //* btn-outline-danger
+    &-danger {
+
+        border: 1px solid rgb(231, 47, 56);
+        color: rgb(231, 47, 56);
+
+        //* btn-outline-danger:hover
+        &:hover {
+            background-color: rgb(231, 47, 56);
+            color: #FFF;
+            cursor: pointer;
+        }
     }
 }
