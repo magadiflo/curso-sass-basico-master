@@ -47,7 +47,7 @@ $colors: 'primary' $primary, 'success' $success, 'danger' $danger;
         color: $color;
 
         &:hover {
-            background: mix($color, rgb(24, 155, 12));
+            background: mix($color, rgb(24, 155, 1));
             color: #FFF;
             cursor: pointer;
         }
@@ -64,7 +64,7 @@ $colors: 'primary' $primary, 'success' $success, 'danger' $danger;
     margin: 5px 0;
     transition: 0.5s all ease-in-out;
 
-    @each $name, $color in $colors {
+    @each $name, $color in $palette {
         @include button($name, $color);
     }
 }

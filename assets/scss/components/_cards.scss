@@ -13,7 +13,7 @@
         radius: 5px;
         width: 1px;
         style: solid;
-        color: $secondary;
+        color: map-get($map: $palette, $key: 'primary');
     }
 
     //* 2° CAPA, anidando un elemento

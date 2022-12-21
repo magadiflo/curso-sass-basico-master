@@ -6,3 +6,10 @@ $dark: #000;
 $dark_opacity: rgba($dark, 0.4);
 $font-size: 1.75rem;
 $brand: 'mdf';
+
+$palette: (
+    'primary': rgb(21, 92, 197),
+    'success': rgb(33, 143, 125),
+    'danger': rgb(185, 8, 82),
+    'secondary': rgb(86, 202, 40),
+);

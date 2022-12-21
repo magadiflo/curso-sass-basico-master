@@ -23,7 +23,7 @@
   border-radius: 5px;
   border-width: 1px;
   border-style: solid;
-  border-color: rgb(19, 190, 85);
+  border-color: rgb(21, 92, 197);
 }
 .mdf-card img {
   width: 100%;
@@ -77,29 +77,38 @@
   transition: 0.5s all ease-in-out;
 }
 .btn-outline-primary {
-  border: 1px solid rgb(38, 26, 214);
-  color: rgb(38, 26, 214);
+  border: 1px solid rgb(21, 92, 197);
+  color: rgb(21, 92, 197);
 }
 .btn-outline-primary:hover {
-  background: #1f5b71;
+  background: #177c63;
   color: #FFF;
   cursor: pointer;
 }
 .btn-outline-success {
-  border: 1px solid rgb(40, 192, 40);
-  color: rgb(40, 192, 40);
+  border: 1px solid rgb(33, 143, 125);
+  color: rgb(33, 143, 125);
 }
 .btn-outline-success:hover {
-  background: #20ae1a;
+  background: #1d953f;
   color: #FFF;
   cursor: pointer;
 }
 .btn-outline-danger {
-  border: 1px solid rgb(231, 47, 56);
-  color: rgb(231, 47, 56);
+  border: 1px solid rgb(185, 8, 82);
+  color: rgb(185, 8, 82);
 }
 .btn-outline-danger:hover {
-  background: #806522;
+  background: #69522a;
+  color: #FFF;
+  cursor: pointer;
+}
+.btn-outline-secondary {
+  border: 1px solid rgb(86, 202, 40);
+  color: rgb(86, 202, 40);
+}
+.btn-outline-secondary:hover {
+  background: #37b315;
   color: #FFF;
   cursor: pointer;
 }
