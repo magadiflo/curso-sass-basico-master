@@ -81,7 +81,7 @@
   color: rgb(38, 26, 214);
 }
 .btn-outline-primary:hover {
-  background-color: rgb(38, 26, 214);
+  background: #1f5b71;
   color: #FFF;
   cursor: pointer;
 }
@@ -90,7 +90,7 @@
   color: rgb(40, 192, 40);
 }
 .btn-outline-success:hover {
-  background-color: rgb(40, 192, 40);
+  background: #20ae1a;
   color: #FFF;
   cursor: pointer;
 }
@@ -99,7 +99,7 @@
   color: rgb(231, 47, 56);
 }
 .btn-outline-danger:hover {
-  background-color: rgb(231, 47, 56);
+  background: #806522;
   color: #FFF;
   cursor: pointer;
 }

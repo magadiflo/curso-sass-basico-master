@@ -44,7 +44,7 @@
         color: $color;
 
         &:hover {
-            background-color: $color;
+            background: mix($color, rgb(24, 155, 12));
             color: #FFF;
             cursor: pointer;
         }
