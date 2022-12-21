@@ -81,7 +81,7 @@
   color: rgb(38, 26, 214);
 }
 .btn-outline-primary:hover {
-  background: rgb(38, 26, 214);
+  background-color: rgb(38, 26, 214);
   color: #FFF;
   cursor: pointer;
 }
@@ -93,7 +93,6 @@
   background-color: rgb(40, 192, 40);
   color: #FFF;
   cursor: pointer;
-  border: 1px solid rgb(40, 192, 40);
 }
 .btn-outline-danger {
   border: 1px solid rgb(231, 47, 56);
