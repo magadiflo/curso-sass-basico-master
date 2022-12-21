@@ -1,3 +1,6 @@
+//* Lista
+$colors: 'primary' $primary, 'success' $success, 'danger' $danger;
+
 //* Solid Buttons
 %btn {
     //* Clase del tipo Placeholder
@@ -60,7 +63,8 @@
     font-size: 16px;
     margin: 5px 0;
     transition: 0.5s all ease-in-out;
-    @include button('primary', $primary);
-    @include button('success', rgb(40, 192, 40));
-    @include button('danger', rgb(231, 47, 56));
+
+    @each $name, $color in $colors {
+        @include button($name, $color);
+    }
 }
