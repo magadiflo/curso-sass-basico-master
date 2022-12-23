@@ -17,6 +17,22 @@
   padding-left: 2px;
 }
 
+.title-xs {
+  font-size: 16px;
+}
+
+.title-md {
+  font-size: 20px;
+}
+
+.title-lg {
+  font-size: 24px;
+}
+
+.title-xl {
+  font-size: 32px;
+}
+
 .mdf-card {
   width: 200px;
   padding: 0;

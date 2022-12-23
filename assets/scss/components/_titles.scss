@@ -34,3 +34,9 @@
         left: 2px;
     }
 }
+
+@each $name, $size in $titles {
+    .title-#{$name} {
+        font-size: $size;
+    }
+}
