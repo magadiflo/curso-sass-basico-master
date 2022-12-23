@@ -35,8 +35,9 @@
     }
 }
 
-@each $name, $size in $titles {
+@each $name, $size, $fontW in $titles {
     .title-#{$name} {
         font-size: $size;
+        font-weight: $fontW;
     }
 }

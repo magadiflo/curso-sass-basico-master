@@ -19,18 +19,22 @@
 
 .title-xs {
   font-size: 16px;
+  font-weight: 400;
 }
 
 .title-md {
   font-size: 20px;
+  font-weight: 500;
 }
 
 .title-lg {
   font-size: 24px;
+  font-weight: 600;
 }
 
 .title-xl {
   font-size: 32px;
+  font-weight: 900;
 }
 
 .mdf-card {

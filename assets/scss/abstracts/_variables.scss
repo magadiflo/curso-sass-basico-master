@@ -7,7 +7,7 @@ $dark_opacity: rgba($dark, 0.4);
 $font-size: 1.75rem;
 $brand: 'mdf';
 
-//* Mapa (key: value)
+//* Mapa (key: value) (Si queremos usar solo 2 propiedades)
 $palette: (
     'primary': rgb(21, 92, 197),
     'success': rgb(33, 143, 125),
@@ -16,10 +16,5 @@ $palette: (
     'light': #FFF
 );
 
-//* Mapa (key: value)
-$titles: (
-    "xs": 16px,
-    "md": 20px,
-    "lg": 24px,
-    "xl": 32px
-);
+//* Destructuri (Si queremos usar más de una propiedad)
+$titles: "xs" 16px 400, "md" 20px 500, "lg" 24px 600, "xl" 32px 900;
