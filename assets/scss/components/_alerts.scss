@@ -1,0 +1,22 @@
+.alert {
+
+    &-primary,
+    &-danger {
+        width: calc(100% - 1rem - 30px);
+        padding: 15px;
+        margin: 0.5rem;
+        border-radius: 10px;
+        font-size: 1.15rem;
+        letter-spacing: 5px;
+        font-family: 'Lato', sans-serif;
+        color: reduceColor('light', 0);
+    }
+
+    &-primary {
+        background-color: reduceColor('primary', 0);
+    }
+
+    &-danger {
+        background-color: reduceColor('danger', 40);
+    }
+}

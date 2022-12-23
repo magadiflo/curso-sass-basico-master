@@ -5,9 +5,11 @@
 //* llevan el _
 
 //* Abstracts
-@import './abstracts/variables';
+@import './abstracts/variables',
+'./abstracts/functions';
 
 //* Components
 @import './components/titles',
 './components/cards',
-'./components/buttons';
+'./components/buttons',
+'./components/alerts'; 

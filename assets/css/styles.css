@@ -112,5 +112,31 @@
   color: #FFF;
   cursor: pointer;
 }
+.btn-outline-light {
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+.btn-outline-light:hover {
+  background: #8ccd80;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.alert-primary, .alert-danger {
+  width: calc(100% - 1rem - 30px);
+  padding: 15px;
+  margin: 0.5rem;
+  border-radius: 10px;
+  font-size: 1.15rem;
+  letter-spacing: 5px;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+.alert-primary {
+  background-color: #155cc5;
+}
+.alert-danger {
+  background-color: #fa93be;
+}
 
 /*# sourceMappingURL=styles.css.map */
