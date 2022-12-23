@@ -1,3 +1,8 @@
+//* @use traerá toda la información del archivo y la tendrá disponible, pero no se usará hasta que se llame.
+
+@use '../abstracts/variables' as v;
+@use '../abstracts/functions' as f;
+
 .alert {
 
     &-primary,
@@ -9,14 +14,14 @@
         font-size: 1.15rem;
         letter-spacing: 5px;
         font-family: 'Lato', sans-serif;
-        color: reduceColor('light', 0);
+        color: f.reduceColor('light', 0);
     }
 
     &-primary {
-        background-color: changeColor('primary', other, 0.8);
+        background-color: f.changeColor('primary', other, 0.8);
     }
 
     &-danger {
-        background-color: changeColor('danger', mixcolor, 0);
+        background-color: f.changeColor('danger', mixcolor, 0);
     }
 }

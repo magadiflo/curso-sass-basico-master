@@ -1,5 +1,7 @@
+@use '../abstracts/variables' as v;
+
 @function color($name) {
-    @return map-get($map: $palette, $key: $name)
+    @return map-get($map: v.$palette, $key: $name)
 }
 
 @function reduceColor($name, $amount) {
