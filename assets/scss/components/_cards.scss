@@ -38,3 +38,16 @@
         line-height: 50px;
     }
 }
+
+@function scale($val, $max, $ratio: 1.5) {
+    @while $val > $max {
+        $val: $val / $ratio;
+    }
+    @return $val;
+}
+
+.main-card { 
+    height: 250px;
+    width: scale(250px, 230px, 1.25);
+    background-color: rgba(0,0,0,0.25);
+}
