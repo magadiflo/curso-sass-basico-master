@@ -603,5 +603,124 @@ ul > li ul > li ul > li > ul {
 ul > li ul > li ul > li:hover > ul {
   display: block;
 }
+.toast {
+  width: 300px;
+  padding: 16px;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.toast__close {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  color: #000;
+}
+.toast__close:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+.toast__image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  box-shadow: 2px 0px 5px -2px rgba(0, 0, 0, 0.5);
+}
+.toast__info {
+  margin-left: 104px;
+}
+.toast__info {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.toast__description {
+  font-size: 12px;
+  margin: 6px 0 6px 0;
+}
+.toast__btn {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 16;
+  padding-right: 16;
+  float: right;
+  color: #FFF;
+  background: #000;
+  outline: none;
+}
+.toast__btn:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+.toast-simple .toast__info {
+  margin: 4px;
+  width: 100%;
+}
+.toast-left-bottom, .toast-bottom-left {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+}
+.toast-left-top, .toast-top-left {
+  position: fixed;
+  left: 16px;
+  top: 16px;
+}
+.toast-right-bottom, .toast-bottom-right {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+}
+.toast-right-top, .toast-top-right {
+  position: fixed;
+  right: 16px;
+  top: 16px;
+}
+
+.toast-primary {
+  background-color: rgb(38, 26, 214);
+  color: #FFF;
+}
+.toast-primary .toast__close {
+  color: #FFF;
+}
+.toast-primary .toast__btn {
+  color: rgb(38, 26, 214);
+  background: #FFF;
+}
+
+.toast-success {
+  background-color: rgb(40, 192, 40);
+  color: #FFF;
+}
+.toast-success .toast__close {
+  color: #FFF;
+}
+.toast-success .toast__btn {
+  color: rgb(40, 192, 40);
+  background: #FFF;
+}
+
+.toast-danger {
+  background-color: rgb(231, 47, 56);
+  color: #FFF;
+}
+.toast-danger .toast__close {
+  color: #FFF;
+}
+.toast-danger .toast__btn {
+  color: rgb(231, 47, 56);
+  background: #FFF;
+}
 
 /*# sourceMappingURL=styles.css.map */
