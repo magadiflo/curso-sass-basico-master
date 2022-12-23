@@ -8,6 +8,11 @@
 @import './abstracts/variables',
 './abstracts/functions';
 
+/**
+* * Global clase
+**/
+@import './global/base';
+
 //* Components
 @import './components/titles',
 './components/cards',
@@ -16,4 +21,5 @@
 './components/table',
 './components/cols',
 './components/menu',
-'./components/toast';
+'./components/toast',
+'./components/usercard';

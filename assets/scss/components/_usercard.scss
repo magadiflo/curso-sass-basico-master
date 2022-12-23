@@ -1,0 +1,23 @@
+//* Como tenemos nuestros estilos bases en _base.scss,
+//* no modificaremos directamente esos estilos sino más bien,
+//* a esos estilos los extendemos y aquí solo modificamos lo
+//* que consideremos necesarios. De esa forma evitamos romper
+//* el estilo que ya otros componentes tienen implementado.
+
+.ucard {
+    @extend .card;
+    max-width: 300px;
+    text-align: center;
+
+    >img {
+        @extend .avatar;
+    }
+
+    >h3 {
+        @extend .title, .main-border;
+    }
+
+    >small {
+        @extend .small;
+    }
+}
