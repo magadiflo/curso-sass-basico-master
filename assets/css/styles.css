@@ -133,10 +133,10 @@
   color: white;
 }
 .alert-primary {
-  background-color: #155cc5;
+  background-color: rgba(21, 92, 197, 0.8);
 }
 .alert-danger {
-  background-color: #fa93be;
+  background-color: #dc84a9;
 }
 
 /*# sourceMappingURL=styles.css.map */

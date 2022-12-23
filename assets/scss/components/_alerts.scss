@@ -13,10 +13,10 @@
     }
 
     &-primary {
-        background-color: reduceColor('primary', 0);
+        background-color: changeColor('primary', other, 0.8);
     }
 
     &-danger {
-        background-color: reduceColor('danger', 40);
+        background-color: changeColor('danger', mixcolor, 0);
     }
 }
