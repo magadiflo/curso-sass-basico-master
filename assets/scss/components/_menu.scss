@@ -97,7 +97,7 @@ nav.menu {
     $base: 'ul>li';
     $root: '';
 
-    @for $v from 1 to $l +1 {
+    @for $v from 1 to $l + 1 {
         $root: #{$root} #{$base};
 
         #{$root} {

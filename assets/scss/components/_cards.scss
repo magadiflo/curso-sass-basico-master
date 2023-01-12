@@ -41,7 +41,7 @@
 
 @function scale($val, $max, $ratio: 1.5) {
     @while $val > $max {
-        $val: $val / $ratio;
+        $val: calc($val/$ratio);
     }
     @return $val;
 }
