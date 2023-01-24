@@ -1,6 +1,17 @@
 # [Curso de SASS de básico a master](https://www.youtube.com/playlist?list=PLy7TtEmBFusKPlehbCaSyIl8OA2lf4Krh)
 Tomado del canal de **Designicode**
 
+## Instalando SASS
+Abrir una terminal y ejecutar el siguiente comando para que se instale a nivel global:
+```
+npm install -g sass
+```
+
+## Ver versión de sass instalada
+```
+sass --version
+```
+
 ## Creación del proyecto
 Ubicados mediante cmd en la directorio que será nuestro proyecto, ejecutamos el siguiente comando:
 
